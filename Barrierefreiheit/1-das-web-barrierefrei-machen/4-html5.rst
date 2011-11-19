@@ -16,4 +16,4 @@ HTML5 bringt natürliche Tags für allgemeine Dokumentstrukturen mit sich, dazu 
 
 .. Note::
 
-   Der letzte Arbeisentwurf von HTML5 wurde am 25. Mai 2011 veröffentlicht.
+   Der letzte Arbeitsentwurf von HTML5 wurde am 25. Mai 2011 veröffentlicht.
