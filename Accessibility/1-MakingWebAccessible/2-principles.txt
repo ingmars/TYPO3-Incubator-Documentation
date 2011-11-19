@@ -1,0 +1,73 @@
+Principles of Accessible Design
+###############################
+
+Below you will find a list of some key principles of accessible design. Most
+accessibility principles can be implemented very easily and will not impact the
+overall "look and feel" of your web site.
+
+Provide appropriate alternative text
+  Alternative text provides a textual alternative to non-text content such as
+  images in web pages. It is especially helpful for people who are blind and
+  rely on a screen reader to have the content of the website read to them.
+
+Provide headings for data tables
+  Tables are used online for layout and to organize data. Tables that are used
+  to organize tabular data should have appropriate table headers (the <th>
+  element). Data cells should be associated with their appropriate headers,
+  making it easier for screen reader users to navigate and understand the data
+  table.
+
+Ensure users can complete and submit all forms
+  Ensure that every form element (text field, checkbox, dropdown list, etc.)
+  has a label and make sure that label is associated to the correct form
+  element using the <label> tag. Also make sure the user can submit the form
+  and recover from any errors, such as the failure to fill in all required
+  fields.
+
+Ensure links make sense out of context
+  Every link should make sense if the link text is read by itself. Screen
+  reader users may choose to read only the links on a web page. Certain phrases
+  like "click here" and "more" must be avoided.
+
+Caption and/or provide transcripts for media
+  Videos and live audio must have captions and a transcript. For archived
+  audio, a transcription may be sufficient.
+
+Ensure accessibility of non-HTML content, including PDF files, Microsoft Word
+documents, PowerPoint presentations and Adobe Flash content.
+  In addition to all of the other principles listed here, PDF documents and
+  other non-HTML content must be as accessible as possible. If you cannot make
+  it accessible, consider using HTML instead or, at the very least, provide an
+  accessible alternative. PDF documents should also include a series of tags to
+  make it more accessible. A tagged PDF file looks the same, but it is almost
+  always more accessible to a person using a screen reader.
+
+Allow users to skip repetitive elements on the page
+  You should provide a method that allows users to skip navigation or other
+  elements that repeat on every page. This is usually accomplished by providing
+  a "Skip to Content," "Skip to Main Content," or "Skip Navigation" link at the
+  top of the page which jumps to the main content of the page.
+
+Do not rely on color alone to convey meaning
+  The use of color can enhance comprehension, but do not use color alone to
+  convey information. That information may not be available to a person who is
+  colorblind and will be unavailable to screen reader users.
+
+Make sure content is clearly written and easy to read
+  There are many ways to make your content easier to understand. Write
+  clearly, use clear fonts, and use headings and lists appropriately.
+
+Make JavaScript accessible
+  Ensure that JavaScript event handlers are device independent (e.g., they do
+  not require the use of a mouse) and make sure that your page does not rely on
+  JavaScript to function.
+
+Design to standards
+  HTML compliant and accessible pages are more robust and provide better
+  search engine optimization. Cascading Style Sheets (CSS) allow you to
+  separate content from presentation. This provides more flexibility and
+  accessibility of your content.
+
+This list does not cover all accessibility issues, but by addressing these
+basic principles, you will ensure greater accessibility of your web content to
+everyone.
